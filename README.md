@@ -40,4 +40,4 @@ All detection rules in SigmaHero are authored by **Ilyess Sellami**.
 Follow him on detections.ai to see the latest contributions, updates, and rule enhancements:
 
 - **Username:** [@ilyessellami](https://detections.ai/user/ilyessellami)  
-- **Focus:** Cybersecurity detection engineering, Sigma rules, threat hunting
+- **Focus:** Detection Engineering, Threat Intelligence, Incident Response
