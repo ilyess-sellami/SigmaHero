@@ -41,3 +41,13 @@ Follow him on detections.ai to see the latest contributions, updates, and rule e
 
 - **Username:** [@ilyessellami](https://detections.ai/user/ilyessellami)  
 - **Focus:** Detection Engineering, Threat Intelligence, Incident Response
+
+---
+
+## 📝 License
+
+**SigmaHero** is released under the **MIT License**.  
+
+You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this repository, subject to the conditions of the MIT License.  
+
+For full details, see the [LICENSE](LICENSE) file.
