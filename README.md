@@ -1,13 +1,9 @@
 # SigmaHero
-
 **A synchronized repository on the detections.ai platform containing Sigma detection rules for the latest cybersecurity threats and CVEs**
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-[![Detections.ai](https://img.shields.io/badge/detections.ai-SigmaHero-brightgreen)](https://detections.ai/user/ilyessellami)
 
 ---
 
-## Overview
+## 👀 Overview
 
 **SigmaHero** is a curated repository of **Sigma detection rules for the latest cybersecurity threats, malware campaigns, and CVEs**.  
 It is designed for **SOC analysts, threat hunters, and security engineers** to help detect emerging attacks across **Windows, Linux, cloud, network, and identity platforms**.  
@@ -15,7 +11,7 @@ The rules are structured and organized for easy deployment and efficient threat 
 
 ---
 
-## Sigma Rules Overview
+## 📚 Sigma Rules Overview
 
 **Sigma** is an open standard for writing **generic, SIEM-independent detection rules**.  
 It allows security teams to describe suspicious behaviors and attack patterns in a **structured YAML format** that can be converted to **specific SIEM queries** (like Splunk, Elastic, Microsoft Sentinel, or QRadar).  
@@ -31,14 +27,14 @@ By using Sigma, analysts can **write once and deploy everywhere**, making detect
 
 ---
 
-## detections.ai Sync
+## 🔄 detections.ai Sync
 
 This repository is **synchronized with the [detections.ai](https://detections.ai/) platform**, ensuring it contains **up-to-date Sigma detection rules**.  
 You can explore the rules, updates, and detailed metadata directly on detections.ai for the latest threat coverage and insights.
 
 ---
 
-## Author
+## 👤 Author
 
 All detection rules in SigmaHero are authored by **Ilyess Sellami**.  
 Follow him on detections.ai to see the latest contributions, updates, and rule enhancements:
