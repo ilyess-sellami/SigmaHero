@@ -3,7 +3,7 @@
 
 ---
 
-## 👀 Overview
+## 📌 Overview
 
 **SigmaHero** is a curated repository of **Sigma detection rules for the latest cybersecurity threats, malware campaigns, and CVEs**.  
 It is designed for **SOC analysts, threat hunters, and security engineers** to help detect emerging attacks across **Windows, Linux, cloud, network, and identity platforms**.  
