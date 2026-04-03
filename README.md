@@ -5,9 +5,11 @@
 
 ## 📌 Overview
 
-**SigmaHero** is a curated repository of **Sigma detection rules for the latest cybersecurity threats, malware campaigns, and CVEs**.  
-It is designed for **SOC analysts, threat hunters, and security engineers** to help detect emerging attacks across **Windows, Linux, cloud, network, and identity platforms**.  
-The rules are structured and organized for easy deployment and efficient threat hunting.
+**SigmaHero** is a centralized and **actively maintained repository** of Sigma detection rules for the latest cybersecurity threats and CVEs.  
+It is specifically designed for **SOC analysts, threat hunters, and security engineers** to detect, investigate, and respond to malicious activity across **Windows, Linux, cloud, network, and identity platforms**.  
+
+The rules are **carefully structured and categorized** for fast deployment, consistent implementation, and effective threat hunting workflows.  
+SigmaHero aims to **streamline detection engineering**, reduce false positives, and provide actionable insights to strengthen security operations.
 
 ---
 
