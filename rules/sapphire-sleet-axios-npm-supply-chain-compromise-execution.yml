@@ -1,0 +1,74 @@
+title: Sapphire Sleet Axios NPM Supply Chain Compromise Execution
+id: 318849b8-2cdd-4c88-8d56-9385394f9de8
+status: experimental
+description: Detects the execution of malicious artifacts associated with the
+  Sapphire Sleet (UNC1069) Axios npm supply chain attack, including the initial
+  plain-crypto-js setup, specific curl commands posting to C2, and OS-specific
+  second-stage payload executions.
+author: Lead Cybersecurity Analyst
+references:
+  - https://cloud.google.com/blog/topics/threat-intelligence/north-korea-threat-actor-targets-axios-npm-package
+date: 2026-04-03
+tags:
+  - attack.execution
+  - attack.t1059.001
+  - attack.t1059.004
+  - attack.t1059.006
+  - attack.defense-evasion
+  - attack.t1036.003
+  - attack.command-and-control
+  - attack.t1071.001
+logsource:
+  category: process_creation
+detection:
+  # Initial Node.js execution of the injected plain-crypto-js dependency
+  selection_npm_init:
+    CommandLine|contains|all:
+      - 'node'
+      - 'setup.js'
+      - 'plain-crypto-js'
+
+  # curl commands connecting to the malicious C2 domain
+  selection_curl_domain:
+    CommandLine|contains|all:
+      - 'curl'
+      - 'sfrclak.com:8000'
+
+  # curl commands connecting to the malicious C2 IP address
+  selection_curl_ip:
+    CommandLine|contains|all:
+      - 'curl'
+      - '142.11.206.73:8000'
+
+  # curl POSTs exfiltrating OS-specific identifiers
+  selection_curl_product:
+    CommandLine|contains|all:
+      - 'curl'
+      - 'packages.npm.org/product'
+
+  # macOS native binary payload execution
+  selection_macos:
+    CommandLine|contains: '/Library/Caches/com.apple.act.mond'
+
+  # Linux Python loader execution
+  selection_linux:
+    CommandLine|contains|all:
+      - 'nohup'
+      - 'python3'
+      - '/tmp/ld.py'
+
+  # Windows masqueraded PowerShell execution (copied to wt.exe)
+  selection_win_wt:
+    CommandLine|contains|all:
+      - '\ProgramData\wt.exe'
+      - '-w'
+      - 'hidden'
+      - '-ep'
+      - 'bypass'
+
+  # Windows persistence script execution
+  selection_win_bat:
+    CommandLine|contains: '\ProgramData\system.bat'
+
+  condition: 1 of selection_*
+level: high
