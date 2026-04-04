@@ -43,6 +43,10 @@ By using Sigma, analysts can **write once and deploy everywhere**, making detect
 
 ## 🔄 detections.ai Sync
 
+<p align="center">
+  <img src="docs/detections-ai-logo.png" alt="Detections AI Logo" width="450" />
+</p>
+
 This repository is **synchronized with the [detections.ai](https://detections.ai/) platform**, ensuring it contains **up-to-date Sigma detection rules**.  
 You can explore the rules, updates, and detailed metadata directly on detections.ai for the latest threat coverage and insights.
 
