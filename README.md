@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/sigmahero-logo-white-bg.png" alt="SigmaHero Logo" width="450"/>
+  <img src="docs/sigmahero-logo.png" alt="SigmaHero Logo" width="450"/>
 </p>
 
 <p align="center">
