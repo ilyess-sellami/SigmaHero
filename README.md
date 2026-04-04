@@ -1,11 +1,19 @@
 # SigmaHero
 
-**A synchronized repository on the detections.ai platform containing Sigma detection rules for the latest cybersecurity threats and CVEs**
-
 <p align="center">
   <img src="docs/sigmahero-logo-white-bg.png" alt="SigmaHero Logo" width="400"/>
 </p>
 
+<p align="center">
+  <strong style="font-size:1.2em;">
+    A synchronized repository on the <a href="https://detections.ai/">detections.ai</a> platform containing Sigma detection rules for the latest cybersecurity threats and CVEs
+  </strong>
+</p>
+
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
+  <a href="https://detections.ai/user/ilyessellami"><img src="https://img.shields.io/badge/detections.ai-SigmaHero-brightgreen" alt="detections.ai"></a>
+</p>
 ---
 
 ## 📌 Overview
