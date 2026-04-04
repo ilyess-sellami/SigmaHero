@@ -46,6 +46,8 @@ You can explore the rules, updates, and detailed metadata directly on detections
 
 ## 👤 Author
 
+![](/docs/author-profile.png)
+
 All detection rules in SigmaHero are authored by **Ilyess Sellami**.  
 Follow him on detections.ai to see the latest contributions, updates, and rule enhancements:
 
