@@ -27,7 +27,7 @@ The rules are **carefully structured and categorized** for fast deployment, cons
   <img src="docs/sigma-logo.png" alt="Sigma Rules Logo" width="350" />
 </p>
 
-**Sigma** is an open standard for writing **generic, SIEM-independent detection rules**.  
+**[Sigma](https://github.com/sigmahq/sigma)** is an open standard for writing **generic, SIEM-independent detection rules**.  
 It allows security teams to describe suspicious behaviors and attack patterns in a **structured YAML format** that can be converted to **specific SIEM queries** (like Splunk, Elastic, Microsoft Sentinel, or QRadar).  
 
 Sigma rules help organizations:
