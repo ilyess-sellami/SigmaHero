@@ -12,7 +12,6 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
   <a href="https://detections.ai/user/ilyessellami"><img src="https://img.shields.io/badge/detections.ai-SigmaHero-brightgreen" alt="detections.ai"></a>
 </p>
----
 
 ## 📌 Overview
 
