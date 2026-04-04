@@ -1,5 +1,10 @@
 # SigmaHero
+
 **A synchronized repository on the detections.ai platform containing Sigma detection rules for the latest cybersecurity threats and CVEs**
+
+<p align="center">
+  <img src="docs/sigmahero-logo.png" alt="SigmaHero Logo" width="200"/>
+</p>
 
 ---
 
