@@ -24,7 +24,7 @@ The rules are **carefully structured and categorized** for fast deployment, cons
 ## 📚 Sigma Rules Overview
 
 <p align="center">
-  <img src="docs/sigma-logo.png" alt="Sigma Rules Logo" width="450" />
+  <img src="docs/sigma-logo.png" alt="Sigma Rules Logo" width="350" />
 </p>
 
 **Sigma** is an open standard for writing **generic, SIEM-independent detection rules**.  
